@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  background-color: #0089b7;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 20px 100px;
+  font-size: 20px;
+}
+
+.heading {
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h1 {
+  font-weight: 800;
+}
+
+.home {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  background-color: #003d62;
+  color: white;
+}
+
+.john h1 {
+  font-size: 50px;
+}
+
+.I {
+  font-size: 30px;
+}
+
+.Hi {
+  color: rgb(229, 229, 79);
+}
+
+.border {
+  background-color: #0089b7;
+
+  height: 10px;
+}
+
+.img {
+  display: grid;
+  grid-template-areas: "I1 I2 I3" "I4 I5 I6" "I7 I8 I9";
+  gap: 10px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.projects h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding: 70px 0;
+}
+
+.img * {
+  border-radius: 10px;
+}
+
+.projects {
+  background-color: #003251;
+  padding-bottom: 50px;
+}
+
+.one {
+  grid-area: I1;
+  transition: 0.1s ease-in-out;
+}
+
+.two {
+  grid-area: I2;
+  transition: 0.1s ease-in-out;
+}
+
+.three {
+  grid-area: I3;
+  transition: 0.1s ease-in-out;
+}
+
+.four {
+  grid-area: I4;
+  transition: 0.1s ease-in-out;
+}
+
+.five {
+  grid-area: I5;
+  transition: 0.1s ease-in-out;
+}
+
+.six {
+  grid-area: I6;
+  transition: 0.1s ease-in-out;
+}
+
+.seven {
+  grid-area: I7;
+  transition: 0.1s ease-in-out;
+}
+
+.eight {
+  grid-area: I8;
+  transition: 0.1s ease-in-out;
+}
+
+.nine {
+  grid-area: I9;
+  transition: 0.1s ease-in-out;
+}
+
+.one:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+}
+
+.two:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+}
+.three:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+}
+.four:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+}
+.five:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+}
+.six:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+}
+.seven:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+}
+.eight:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+}
+
+.nine:hover {
+  transform: scale(1.05);
+  transition: 0.1s ease-in-out;
+}
+
+.footer-container {
+  background-color: #195770;
+}
+
+i {
+  font-size: 50px;
+  color: white;
+}
+
+.footer-container h1 {
+  text-align: center;
+  color: white;
+  /* margin-bottom: 50px; */
+  padding: 50px;
+  font-size: 50px;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 50px;
+}
+
+.footer-container h4 {
+  font-size: 30px;
+  color: white;
+}
+
+.linkedin,
+.twitter,
+.mail,
+.git,
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
